@@ -1,0 +1,17 @@
+body {
+    background-color: #726969; /* set a background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+.centered-gif {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* center the image horizontally */
+}
