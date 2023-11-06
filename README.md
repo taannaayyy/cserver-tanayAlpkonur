@@ -9,10 +9,14 @@ CServer is a simple web server application written in C++ that listens on port 8
 To use CServer, follow these steps:
 
 1. Build the project using an appropriate C++ compiler.
-2. Run the server executable using
+
+go to the src directory on terminal 
+
+        g++ server.cpp -o server
+3. Run the server executable using
         
         ./server
-3. Open a web browser and navigate to http://localhost:8080 (or the specified port) to view your website.
+4. Open a web browser and navigate to http://localhost:8080 (or the specified port) to view your website.
 
 ## Safety Concerns
 
